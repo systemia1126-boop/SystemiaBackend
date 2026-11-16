@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Systemia.Datos/Systemia.Datos.csproj" />
+  <Project Path="Systemia.Entidades/Systemia.Entidades.csproj" />
+  <Project Path="Systemia.Logica/Systemia.Logica.csproj" />
+  <Project Path="WebApiSystemia/WebApiSystemia.csproj" />
+</Solution>
