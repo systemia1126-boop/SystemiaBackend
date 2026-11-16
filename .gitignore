@@ -1,55 +1,45 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Compilación
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
 
-# Precompiled Headers
-*.gch
-*.pch
+# Rider / VS Code
+.idea/
+.vscode/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Archivos temporales y de depuración
 *.pdb
+*.cache
+*.log
+*.tmp
+TestResults/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Publicación
+[Pp]ublish/
+*.pubxml
+*.publishproj
+PublishScripts/
 
-# debug information files
-*.dwo
+# Secretos locales
+appsettings.Development.local.json
+*.env
